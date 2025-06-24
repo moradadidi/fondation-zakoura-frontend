@@ -72,10 +72,14 @@ const DropdownItem = ({ item, depth }) => {
     );
 };
 
+interface MenuItemRendererProps {
+  item: MenuItem; // The item can be ANY of the MenuItem union types
+  depth: number;
+}
 
 // --- The main MenuItemRenderer component ---
 // This is the component you import and use in SubSidebar.jsx
-const MenuItemRenderer = ({ item, depth = 0 }) => {
+const MenuItemRenderer:React.FC<MenuItemRendererProps> = ({ item, depth = 0 }) => {
     // Based on the 'type' property of the item, render the appropriate helper component
     switch (item.type) {
         case 'header':
