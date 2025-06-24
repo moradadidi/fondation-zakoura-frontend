@@ -64,7 +64,7 @@ const MainLayout: React.FC = () => { // Added React.FC for better type checking 
 
   return (
     <div className='h-full'>
-      {/* Fixed header with menu button to toggle sidebar */}
+
       <header className='fixed w-full z-50 '>
         {/* Pass typed props to Header component */}
         <Header handleSidebarToggle={handleSidebarToggle} menuButtonRef={menuButtonRef} />

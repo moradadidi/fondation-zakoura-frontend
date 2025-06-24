@@ -11,7 +11,7 @@ import { IoLayersOutline, IoSettingsOutline } from 'react-icons/io5';
 import { PiStudent } from 'react-icons/pi';
 import { BiServer } from 'react-icons/bi';
 
-// --- Sub-Menu & Nested Icons (mapping based on visual appearance in your images) ---
+// --- Sub-Menu & Nested Icons ---
 import {
     RiBarChartBoxLine,
     RiMoneyDollarCircleLine,
@@ -47,7 +47,7 @@ import {
     RiUserFollowLine,
     RiGraduationCapLine,
     RiCrosshairLine,
-    RiInformationLine, // Added for 'Absences'
+    RiInformationLine, 
 } from 'react-icons/ri';
 
 

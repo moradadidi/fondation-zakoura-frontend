@@ -1,7 +1,7 @@
-// src/components/SubSidebar.jsx - Refactored
+
 import React from 'react';
-import { menuItems } from '../constants'; // Use your combined menu data
-import MenuItemRenderer from './MenuItemRenderer'; // Import the new renderer
+import { menuItems } from '../constants'; 
+import MenuItemRenderer from './MenuItemRenderer'; 
 
 
 interface SubSidebarProps{
